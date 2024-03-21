@@ -1,0 +1,176 @@
+* {
+    background: #E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.LogoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+/*seseoes*/
+
+.text-area {
+    display: flex;
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder { color: #0A3871; }
+    .text-area:focus {
+    outline: none;
+}
+.mensagem {
+    background: white;
+    background-image: url(./imagens/boneco.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensagem:focus {
+    outline: none;
+}
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    
+}
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+.informacao {
+    color: #495057;
+    font-size: 18px;
+}
+h6 {font-size: 18px;
+}
+
+li {
+    color: #495057;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 108px;
+}
+
+a {
+    color: #495057;
+    font-size: 18px;
+    text-align: center;
+   
+}
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    gap: 9px;
+    list-style: none;
+    font-size: 1.0rem;
+    color: var(--gray-400-color);
+}
+
+footer img {
+    height: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    transition: all 0.15ms;
+}
+
+footer a:hover {
+    opacity: 0.7;
+    transform: scale(1.009);
+    cursor: pointer;
+}
+
+footer a:active {
+    transform: scale(1);
+    transform: translateY(1px);
+}
+
+footer a:link {
+    color: var(--gray-400-color);
+}
+
+footer a:visited {
+    color: var(--current-method-primary-color);
+}
+
+.requirements {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.requirements img {
+    height: 1.8rem;
+}
+
+.requirements span {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: var(--gray-400-color);
+}
